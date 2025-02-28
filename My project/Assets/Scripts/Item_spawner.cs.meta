@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 33519290cb33ee047916f3f6b5f8f6a0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - itemPrefab_Battery: {fileID: 5172036122755178047, guid: 9a784157cc2f1654b8b14688d794f013,
+      type: 3}
+  - itemPrefab_Bomb: {fileID: 7255434613333791884, guid: 25b88455d911c8a479be120727dd7697,
+      type: 3}
+  - itemPrefab_Box: {fileID: 332496144062562721, guid: 03b61a9756b0b974ba7b0c9174c7eb24,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

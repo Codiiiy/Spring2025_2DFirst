@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 7bf1e31156cfd2d43b96f60bf8bd8040
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - collisionParticleSystem: {fileID: 2904808877898208710, guid: f8a9af5016967c643adee26d5e7d375c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

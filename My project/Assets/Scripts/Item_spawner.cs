@@ -15,15 +15,19 @@ public class bomb_spawner : MonoBehaviour
 
     void Update()
     {
-        tick += Time.deltaTime;
-        if (tick >= spawnInterval)
-        {
-            tick = 0f;
-            int randomIndex = Random.Range(0, 3);
-            GameObject item = randomIndex == 0 ? itemPrefab_Battery : randomIndex == 1 ? itemPrefab_Bomb : itemPrefab_Box;
-            SpawnObject(item);
-            spawnInterval *= spawnSpeedMultiplier;
-        }
+        //while(score_manager.gameMaster == true)
+       // {
+            tick += Time.deltaTime;
+            if (tick >= spawnInterval)
+            {
+                tick = 0f;
+                int randomIndex = Random.Range(0, 3);
+                GameObject item = randomIndex == 0 ? itemPrefab_Battery : randomIndex == 1 ? itemPrefab_Bomb : itemPrefab_Box;
+                SpawnObject(item);
+                spawnInterval *= spawnSpeedMultiplier;
+            }
+       //}
+
     }
 
     void SpawnObject(GameObject item)

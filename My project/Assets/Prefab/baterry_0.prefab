@@ -176,3 +176,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d791b97f0f81d5e4d849c070ce571390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bombCollisionParticleSystem: {fileID: 2904808877898208710, guid: a402452b34544b143b362770a3a9c52f,
+    type: 3}

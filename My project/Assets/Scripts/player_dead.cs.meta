@@ -4,7 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - collisionParticleSystem: {fileID: 2904808877898208710, guid: f8a9af5016967c643adee26d5e7d375c,
+  - bombCollisionParticleSystem: {fileID: 2904808877898208710, guid: 4ae8ff469fc5a8e46948c6c566b15667,
+      type: 3}
+  - powerUpCollisionParticleSystem: {fileID: 2904808877898208710, guid: a402452b34544b143b362770a3a9c52f,
       type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
